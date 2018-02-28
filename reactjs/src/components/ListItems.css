@@ -1,0 +1,97 @@
+.listItem{
+	margin: auto;
+	height: 100px;
+	width: 50%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	border: 2px solid rgba(100,100,100,0.5);
+	border-radius: 5px;
+	margin-bottom: 3px;
+	padding: 5px 15px;
+	display: block;
+	transition: 0.3s ease;
+	cursor: pointer;
+}
+.listItem:hover{
+	box-shadow: 0 0 5px 1px rgba(255, 63, 24,1);
+	border: 2px solid rgba(255, 63, 24,0);
+}
+.listItem:focus{
+	box-shadow: 0 0 5px 1px rgba(255, 63, 24,1);
+	border: 2px solid rgba(255, 63, 24,0);
+}
+.thumbnail{
+	height: 64px;
+	width: 64px;
+	border-radius: 5px;
+	position: absolute;
+	margin-top: 10px;
+	box-shadow: 5px 4px 5px 2px rgba(150, 150, 150,0.5);
+	border: 0.5px solid rgba(150, 150, 150,0.3);
+}
+.title{
+	width: 340px;
+	height: 20px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	text-decoration: none;
+	position: relative;
+	display: block;
+	margin-top: 15px;
+	margin-left: 100px;
+	cursor: pointer;
+	transition: 0.1s ease;
+}
+.selftext{
+	width: 340px;
+	height: 20px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	text-decoration: none;
+	position: relative;
+	display: block;
+	margin-top: 15px;
+	margin-left: 100px;
+	cursor: pointer;
+	transition: 0.1s ease;
+}
+.selftext:hover{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 60px;
+	margin-bottom: -5px;
+}
+.author{
+	width: 115px;
+	height: 13px;
+	overflow: auto;
+	text-overflow: ellipsis;
+	position: relative;
+	display: block;
+	margin-top: 5px;
+	margin-left: 100px;
+	font-size: 11px;
+}
+.comments{
+	max-width: 100px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	position: relative;
+	display: block;
+	margin-top: -24px;
+	margin-left: 215px;
+	font-size: 11px;
+}
+.time{
+	max-width: 150px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	position: relative;
+	display: block;
+	margin-top: -24px;
+	margin-left: 300px;
+	font-size: 11px;
+}
+span{
+	visibility: hidden;
+}
